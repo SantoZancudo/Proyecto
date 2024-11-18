@@ -1,0 +1,117 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(ieie.webp);
+    color:#333 ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 224, 3);
+    gap: 5px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.menu-navegacion {
+    margin: 20px 0;
+    display: flex;
+    text-decoration: none;
+    gap:30px;
+    border-style: inset;
+    border-color: yellow;
+}
+
+.menu-navegacion a {
+    color: white;
+    margin: 5px 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+h2 {
+    display: inline-block;
+    border-style:inset ;
+    border-radius: 11px;
+    border-color: rgb(211, 211, 34);
+}
+
+h1{
+    display: inline-block;
+    border-style:inset ;
+    border-radius: 11px;
+    border-color:brown ;
+    color:black;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+footer {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: rgb(122, 13, 13) ;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:blueviolet ;
+}
+
+img{
+    display: inline-block;
+    border-style:inset ;
+    border-radius: 11px;
+    border-color:rgb(197, 156, 156) ;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.important {
+margin:0 auto ;
+width: 960px;
+height: 7900px;
+background-color: rgb(211, 163, 100);
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imgns{
+    display: flex;
+    justify-content: center;  
+    margin-top: 20px;
+}
+
+
+
+
